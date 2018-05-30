@@ -13,7 +13,7 @@ var port = process.env.PORT || 8080;
 
 app.use(bodyParser.json())
 app.use(cors())
-app.use('/static', express.static('./static'))
+app.use('/static', express.static( __dirname + '/static'))
 
 const dbConfig = require('./config/database.config.js');
 const mongoose = require('mongoose');
