@@ -8,5 +8,6 @@ To run in dev enviroment run:
 - set up database connection in .env (exmaple in .env.example)
 - npm run dev
 
+### Deploy to Heroku
 
-
+- **Config Vars** need to be set. **DB_CONN** should point to MongoDB
